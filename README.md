@@ -109,7 +109,7 @@ Rather than guessing, each key setting was tested to see which value worked best
 | Value | Validation Accuracy |
 |---|---|
 | 0.01 | 48.65% (too big — the model couldn't settle) |
-| **0.001** | **89.19% ✅ chosen** |
+| **0.001** | **89.19%  chosen** |
 | 0.0001 | 89.19% |
 | 0.00001 | 87.84% |
 
@@ -118,14 +118,14 @@ Rather than guessing, each key setting was tested to see which value worked best
 | Value | Validation Accuracy |
 |---|---|
 | 8 | 89.19% |
-| **16** | **89.19% ✅ chosen** |
+| **16** | **89.19%  chosen** |
 | 32 | 88.44% |
 
 **Dropout** — how many neurons to switch off during training.
 
 | Value | Validation Accuracy |
 |---|---|
-| **0.4** | **90.54% ✅ chosen** |
+| **0.4** | **90.54%  chosen** |
 | 0.5 | 89.19% |
 | 0.6 | 89.19% |
 
